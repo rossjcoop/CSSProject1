@@ -15,24 +15,23 @@ colors:
 header{
 	background: #ff8523;
 	border-width: 5px;
-	border-color: #ffd24a ;
+	border-color: #ffd24a;
 }
 
 body {
 	font-family: Helvetica, Arial, sans-serif;
-    line-height: 1.6;
     background: url(img/bg.jpg);
     
     
 }
 
 body > div {
-	width: 700px;
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
     background: white;
     padding: 1px;
-	border: 1px solid #ffd24a
+    border: 1px solid #ffd24a;
 	color: #000000;
 
 }
@@ -46,26 +45,35 @@ ul {
 	font-weight: bold;
 }
 
+
+
 thead {
 	background-color: #1fabe5;
 	color: white;
-	border: 1px solid black ;
+	border: 1px #1fabe5  ;
+
 
 }
 
-tbody{
-	border: 1px solid #1fabe5;
-	color: #000000;
+table, td{
+    border: 1px solid #1fabe5;
+    border-collapse: collapse;
 }
 
-tr{
-	border: 1px solid black
+
+td img {
+    width: 50px;
 }
 
-form {
-	width: 40%;
+form > div {
+    background-color: #dddddd;
+    padding: 30px;
+    
 }
 
+label {
+    font-weight: bold;
+}
 #site_header{
 	padding: 20px;
 }
@@ -76,8 +84,6 @@ form {
     color: #ff8523;
     margin-top: 5px;
     margin-bottom: 0.6em;
-    font-size: 1em;
-    text-transform: uppercase;
 }
 
 #page_content {
@@ -105,13 +111,14 @@ form {
 .name {
 	background-color: #ff8523;
 	color: white;
+    padding-top 1px;
 
 }
 
 .city-container {
-	border: 1px solid #000000
+	border: 5px solid #000000;
 }
 
 .submit_container {
-	border: 1px solid #000000
+	border: 1px solid #000000;
 }
