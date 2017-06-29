@@ -62,6 +62,10 @@ tr{
 	border: 1px solid black
 }
 
+form {
+	width: 40%;
+}
+
 #site_header{
 	padding: 20px;
 }
